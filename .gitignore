@@ -1,52 +1,74 @@
-# Prerequisites
-*.d
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# User-specific folders
+.vscode/
+.vs/
+_ReSharper*/
+**/TestResults/
+build/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.cache
 *.pdb
+*.pyc
+*.env
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Build results
+*.dll
+*.exe
+*.app
+*.lib
+*.so
+*.dylib
+*.lo
+*.o
+*.a
+
+# Azure DevOps
+!.pipelines/
+
+# Visual Studio temporary files, caches, and logs
+~$*
+*.tmp
+*.temp
+*.log
+*.vs/
+# IDE config
+.idea/
+# Auto-generated UI files
+*.designer.cs
+
+# Mac files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Package directories (NuGet, npm, etc.)
+*.nupkg
+*.nuget/
+node_modules/
+bower_components/
+
+# Logs
+*.log
+
+# Environment
+*.env
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Specific to JetBrains IDEs
+.idea/
+.idea/**/
+*.iml
